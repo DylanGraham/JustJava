@@ -30,7 +30,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /**
-     * Increment the quantity
+     * Increment the quantity on button click
      */
     public void increment(View view) {
         quantity += 1;
@@ -38,7 +38,7 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /**
-     * Decrement the quantity
+     * Decrement the quantity on button click
      */
     public void decrement(View view) {
         if (quantity > 0) {
